@@ -2433,6 +2433,7 @@ class PartialEvaluator {
 
         textContent.styles[loadedName] = {
           fontFamily: font.fallbackName,
+          originalFontName: font.name,
           ascent: font.ascent,
           descent: font.descent,
           vertical: font.vertical,

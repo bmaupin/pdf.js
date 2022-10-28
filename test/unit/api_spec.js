@@ -2222,6 +2222,7 @@ page 1 / 3`);
       });
       expect(styles[fontName]).toEqual({
         fontFamily: "serif",
+        originalFontName: "Times-Roman",
         // `useSystemFonts` has a different value in web environments
         // and in Node.js.
         ascent: isNodeJS ? NaN : 0.683,
